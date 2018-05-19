@@ -60,11 +60,11 @@
     display: flex;
 }
 
-#progressBar {
+.progressBar {
     display: block;
     float: none;
     height: 2px;
     background-color: #FF1300;
-    width: 100%;
+    width: 0;
     margin-top: 27px;
 }
