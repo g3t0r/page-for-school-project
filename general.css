@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.interface {
+    background-color: #F9FCFF;
+    color: black;
+}
+
+.interface_active {
+    background-color: white;
+    color: #ff00bb;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
