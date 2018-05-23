@@ -3,4 +3,117 @@
     width: 100%;
     height: 60px;
     border-top: 1px solid #9DA7B2;
+    line-height: 60px;
+    padding-left: 80px;
+}
+
+#player * {
+    float: left;
+}
+
+#player img {
+    height: 32px;
+    width: 32px;
+}
+
+#backRed{
+    display: none;
+}
+
+#backButton:hover #backRed {
+    display: block;
+}
+
+#backButton:hover #backBlack {
+    display: none;
+}
+
+#playRed{
+    display: none;
+}
+
+#playButton:hover #playRed {
+    display: block;
+}
+
+#playButton:hover #playBlack {
+    display: none;
+}
+
+#pauseRed{
+    display: none;
+}
+
+#pauseButton:hover #pauseRed {
+    display: block;
+}
+
+#pauseButton:hover #pauseBlack {
+    display: none;
+}
+
+#forwardRed{
+    display: none;
+}
+
+#forwardButton:hover #forwardRed {
+    display: block;
+}
+
+#forwardButton:hover #forwardBlack {
+    display: none;
+}
+
+#playerButtons {
+    display:flex;
+    margin-top: 13px;
+}
+
+#progressBar {
+    display: flex;
+    float: left;
+    bottom: 15px;
+    width: 100%;
+    margin: 0 5% 0 5%;
+    max-width: 40%;
+}
+
+#progressBarBackground {
+    position: relative;
+    margin-top: 28px;
+    width: 100%;
+    display: flex;
+    background-color: #9DA7B2;
+    height: 6px; 
+    box-shadow: inset 2px 2px 2px gray;
+    z-index: 1;
+}
+
+#progressBarTime {
+    position: relative;
+    width: 80%;
+    height: 6px;
+    margin-top: 28px;
+    background-color: #FF1300;
+    display: flex;
+    z-index: 2;
+    margin-left: -100%;
+}
+
+#playerCenter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#progressBarCircle {
+    margin-top: 20px;
+    margin-left: -10px;
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-shadow: 2px 2px 4px 1px gray;
+    z-index: 3;
 }
